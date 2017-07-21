@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #999;
+    background-color: #eee;
+    position: relative;
+    /*float: left;*/
+}
+.left{
+    padding: 20px;
+    width: 200px;
+    background-color: #fff;
+    float: left;
+   /* top:20px;
+    left: 20px;
+    position: relative;*/
+    border: 1px solid #999;
+
+}
+.logoleft{
+    height: 80px;
+    width: 80px;
+    background-color: #eee;
+    border: 1px solid #999;
+}
+.mid{
+    margin-left: 260px;
+    margin-right: 140px;
+    /*float: left;*/
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+}
+
+.right{
+    width: 120px;
+    background-color: #fff;
+    float: right;
+
+   /* top: 20px;
+    right: 20px;*/
+
+    position: relative;
+    border: 1px solid #999;
+}
+
+.perlogo{
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+
+    background-color: #eeeeee;
+    border: 1px solid #999;
+}

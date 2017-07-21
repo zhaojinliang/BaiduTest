@@ -1,0 +1,149 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+h1,h2,small{
+    clear: none;
+}
+body{
+    padding: 0px;
+    margin: 0 auto;
+    width: 1280px;
+    height: 2565px;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    background-color: #333333;
+
+}
+
+.bd_logo{
+    width:200px;
+    height:60px;
+    float: left;
+}
+
+.nav{
+    height: 60px;
+    width: 120px;
+    float: right;
+    line-height: 60px;
+}
+.container{
+    width: 1240px;
+    height: 2440px;
+    padding: 20px;
+    background-color: #DEDEDE;
+}
+
+.content{
+    width: 860px;
+    height: 2440px;
+    float: left;
+}
+.part1{
+    padding: 20px;
+    height: 780px;
+    float: left;
+    background-color: #FFFFFF;
+
+}
+.part2{
+    margin-top: 20px;
+    padding: 20px;
+    height: 680px;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+.part2 ul{
+    list-style: none;
+}
+
+.part3{
+    margin-top: 20px;
+    padding: 20px;
+    height: 380px;
+    float: left;
+    background-color: #FFFFFF;
+}
+.pictures{
+    display: inline-block;
+    padding: 10px;
+}
+.picture{
+    float:left;
+    border: 1px lightgray solid;
+    width: 100px;
+    margin: 0 20px 20px 0;
+    padding:10px;
+    text-align: center;
+}
+
+.picture img{
+    height: 75px;
+    width: 100px;
+    margin-top: 10px;
+    display: block;/*消除img标签与div层之间的空隙*/
+}
+.part4{
+    margin-top: 20px;
+    padding: 20px;
+    height: 380px;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+.table_botton{
+    width: 820px;
+    border-collapse:collapse;/*消除列间空白*/
+}
+td{
+    border:1px solid gray;
+}
+.tr0{
+    background-color: #333333;
+    color: white;
+}
+
+.sidebar{
+    width: 320px;
+    height: 500px;
+    float: left;
+    padding: 20px;
+    margin-left:20px;
+    background-color: #FFFFFF;
+}
+
+.table_sidebar td{
+    border: 0px;
+
+}
+
+.footer{
+    
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.submit{
+    line-height: 40px;
+    color: #ffffff;
+    background-color: blue;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    border:none;
+}
+
+.table_sidebar tr td:first-child{
+    text-align: right;
+}
